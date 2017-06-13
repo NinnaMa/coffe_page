@@ -1,0 +1,94 @@
+﻿body{
+font-family:cursive;
+margin:0 auto;
+width:960px;
+background-color:moccasin;
+}
+h1,h2,h3{
+color:saddlebrown;
+}
+ul{
+list-style-image:url("images/tiny-coffee-cup.gif");	
+}
+a:link,a:visited{
+text-decoration:none;
+color:saddlebrown;
+font-weight:bold;		
+}
+a:hover{
+color:black;
+}
+nav ul{
+	list-style-type:none;
+	padding-top:160px;
+    padding-bottom:0;
+    padding-left:0;
+    padding-right:0;    
+}
+nav li{
+	display:inline;
+	float:left;
+}
+nav a:link,nav a:visited{
+	background-color:burlywood;
+	color:saddlebrown;
+	display:block;
+	width:160px;
+	text-align:center;
+	padding:10px 0;
+}
+nav a:hover{
+	background-color:black;
+}
+aside{
+width:280px;
+float:right;
+background-color:burlywood;
+text-align:center;
+font-weight:bold;
+padding:20px;
+margin-left:20px;		
+}
+.photo-left{
+	float:left;
+	margin-right:20px;
+}
+.photo-right{
+float:right;	
+margin-left:20px;	
+}
+header{
+	background-image:url("images/coffee.jpg");
+	height:170px;
+	margin-bottom:70px;
+}
+footer nav a:link,footer nav a:visited{
+	color:saddlebrown;
+	text-decoration:none;
+	display:block;
+	width:160px;
+	text-align:center;
+	background-color:burlywood;
+    margin-bottom:30px;
+}
+footer nav a:hover{
+color:black;	
+}
+td,th{
+	border:3px solid brown;
+	width:20%;
+	text-align:center;
+	padding:5px;
+}
+table{
+	border-collapse:collapse;
+}
+video{
+	margin-bottom:20px;
+	margin-left:160px;
+	filter:grayscale(100%);
+}
+fieldset{
+    background-color:burlywood;
+    border:2px solid brown;
+}
